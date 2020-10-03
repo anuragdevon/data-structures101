@@ -12,5 +12,5 @@
 - `Fork` this repository
 - `Clone` it to local desktop
 - Make changes to in local environment
-- Commit and push the new branch created
-- Apply for pull request
+- `Commit` and `push` the new branch created
+- Apply for `pull request`
