@@ -1,2 +1,6 @@
-# Data structures in Python
-Data structures in python along with some basic python programs
+# Data structures 
+> Languages used here:
+1. Python 
+2. C++
+3. C
+*Good contributions are always welcome :)*
