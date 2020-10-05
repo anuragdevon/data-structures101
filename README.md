@@ -7,6 +7,7 @@
 6. Java
 7. C#
 8. Golang
+9. Rust
 
 *Good contributions are always welcome :)*
 > Procedure for contributing:
