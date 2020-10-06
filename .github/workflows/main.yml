@@ -50,3 +50,9 @@ jobs:
           rm README.md
           mv tmp.md README.md
 
+      - name: Commit report
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'jsmith@example.com'
+          git commit -am "Update README.md"
+          git push
