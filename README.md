@@ -1,5 +1,6 @@
 # Data structures 
 > Languages used here:
+<!-- Languages start here -->
 1. Python 
 2. C++
 3. C
@@ -8,6 +9,7 @@
 7. C#
 8. Golang
 9. Rust
+<!-- Languages end here -->
 
 *Good contributions are always welcome :)*
 > Procedure for contributing:
