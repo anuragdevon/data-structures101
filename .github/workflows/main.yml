@@ -1,0 +1,52 @@
+name: Update README.md
+
+on:
+  push:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Update languages in README.
+        run: |
+          blockStart="<!-- Languages start here -->"
+          blockEnd="<!-- Languages end here -->"
+
+          flag=""
+
+          while IFS= read -r line; do
+              if [[ $flag == "" ]]; then
+                  echo $line >> tmp.md
+              elif [[ $flag == "start" ]]; then
+                  languages=`curl -sH "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Anuragkar234/Data-Structures/languages | jq -r 'keys[]'`
+                  count=1
+                  for language in $languages; do
+                      echo "$count. $language" >> tmp.md
+                      ((count++))
+                  done
+                  flag="end"
+              elif [[ $flag == "end" && $line == $blockEnd ]]; then
+                  echo $line >> tmp.md
+                  flag=""
+              fi
+
+              if [[ $line == $blockStart ]]; then
+                  flag="start"
+              fi
+          done < README.md
+
+          rm README.md
+          mv tmp.md README.md
+
