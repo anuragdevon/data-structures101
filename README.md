@@ -16,3 +16,14 @@
 - Make changes to in local environment
 - `Commit` and `push` the new branch created
 - Apply for `pull request`
+
+# Algorithms and languages used
+
+C++ | Go | Java | JavaScript | Python | Rust
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+Bubble Sort | Armstrong Number | Linear Search | Binary Search | Merge Sort | Binary Search
+Tree Transversal | Binary Search | Selection Sort | Bubble Sort | Insertion Sort | Bubble Sort
+NA | Insertion Sort | NA | Linked List | NA | Queue
+NA | Merge Sort| NA | Merge Sort | NA | Stack
+NA | Pascals Triangle | NA | Stack | NA | NA
+NA | Selection Sort | NA | NA | NA| NA
