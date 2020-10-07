@@ -1,4 +1,4 @@
-# Data structures
+# Data structures and Algorithms
 > Languages used here:
 <!-- Languages start here -->
 1. C++
