@@ -1,12 +1,13 @@
 # Data structures and Algorithms
 > Languages used here:
 <!-- Languages start here -->
-1. C++
-2. Go
-3. Java
-4. JavaScript
-5. Python
-6. Rust
+1. C#
+2. C++
+3. Go
+4. Java
+5. JavaScript
+6. Python
+7. Rust
 <!-- Languages end here -->
 
 *Good contributions are always welcome :)*
