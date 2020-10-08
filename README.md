@@ -26,4 +26,4 @@ Tree Transversal | Binary Search | Selection Sort | Bubble Sort | Insertion Sort
 NA | Insertion Sort | NA | Linked List | NA | Queue
 NA | Merge Sort| NA | Merge Sort | NA | Stack
 NA | Pascals Triangle | NA | Stack | NA | NA
-NA | Selection Sort | NA | NA | NA| NA
+NA | Selection Sort | NA | Insertion Sort | NA| NA
