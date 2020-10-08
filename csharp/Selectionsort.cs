@@ -1,6 +1,6 @@
 using System;
 
-public class Selectionsort{
+public class SelectionSort{
     static void Main(string[] args){
 
         int[] array = new int[10] {34, 78, 12, 44, 23, 89, 67, 99 ,1 ,56};
