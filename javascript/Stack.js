@@ -1,4 +1,4 @@
-stack.js
+
 class Stack {
     constructor() {
         this.items = []
