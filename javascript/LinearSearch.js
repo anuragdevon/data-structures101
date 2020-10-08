@@ -1,7 +1,6 @@
 /**
  * @param {Array}
  * @param {String}
- * @author Yash Karanke
  * */
 const linearSearch = (arr, elToFind) => {
   for (let i=0; i<arr.length; i++) {
