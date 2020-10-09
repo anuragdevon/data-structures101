@@ -24,8 +24,8 @@ C++ | Go | Java | JavaScript | Python | Rust | C#
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Bubble Sort | Armstrong Number | Linear Search | Binary Search | Merge Sort | Binary Search | Selection Sort
 Tree Transversal | Binary Search | Selection Sort | Bubble Sort | Insertion Sort | Bubble Sort | NA
-NA | Insertion Sort | NA | Linked List | NA | Queue | NA
-NA | Merge Sort| NA | Merge Sort | NA | Stack | NA
+NA | Insertion Sort | NA | Linked List | Bubble Sort | Queue | NA
+NA | Merge Sort| NA | Merge Sort | Binary Search | Stack | NA
 NA | Pascals Triangle | NA | Stack | NA | NA | NA
 NA | Selection Sort | NA | Insertion Sort | NA| NA | NA
 NA | NA | NA | Linear Search | NA| NA | NA
