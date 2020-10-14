@@ -27,5 +27,5 @@ Tree Transversal | Binary Search | Selection Sort | Bubble Sort | Insertion Sort
 Jump Search | Insertion Sort | NA | Linked List | Bubble Sort | Queue | NA
 Exponential Search | Merge Sort| NA | Merge Sort | Binary Search | Stack | NA
 Selection Sort | Pascals Triangle | NA | Stack | Selection Sort | NA | NA
-NA | Selection Sort | NA | Insertion Sort | NA| NA | NA
-NA | NA | NA | Linear Search | NA| NA | NA
+Hashmap | Selection Sort | NA | Insertion Sort | NA| NA | NA
+BST(kth smallest) | NA | NA | Linear Search | NA| NA | NA
