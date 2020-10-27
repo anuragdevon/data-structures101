@@ -21,17 +21,28 @@
 
 # Algorithms and languages used
 
-C++ | Golang | Java | JavaScript | Python | Rust | C#
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Bubble Sort | Armstrong Number | Linear Search | Binary Search | Merge Sort | Binary Search | Selection Sort
-Tree Transversal | Binary Search | Selection Sort | Bubble Sort | Insertion Sort | Bubble Sort | Bubble Sort
-Jump Search | Insertion Sort | Bubble Sort | Linked List | Bubble Sort | Queue | Binary Search
-Exponential Search | Merge Sort | Insertion Sort | Merge Sort | Binary Search | Stack | NA
-Selection Sort | Pascals Triangle | Stack | Stack | Selection Sort | NA | NA
-Hashmap | Selection Sort | StackDemo | Insertion Sort | Counting Sort | NA | NA
-BST(kth smallest) | NA | Binary Search | Linear Search | Heap Sort | NA | NA
-Merge Sort | NA | NA | Selection Sort | Linear Search | NA | NA
-NA | NA | NA | NA | Linked List | NA | NA
-NA | NA | NA | NA | Number Sort | NA | NA
-NA | NA | NA | NA | BFS | NA | NA
-NA | NA | NA | NA | DFS | NA | NA
+
+Algorithm\\Language | C++ | Golang | Java | JavaScript | Python | Rust | C#
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Armstrong Number | X | O | X | X | X | X | X
+BFS | X | X | X | X | X | O | X
+Binary Search | X | O | O | O | O | O | O
+BST(kth smallest) | O | X | X | X | X | X | X
+Bubble Sort | O | X | O | O | O | O | O
+Counting Sort | X | X | X | X | O | X | X
+DFS | X | X | X | X | X | O | X
+Exponential Search | O | X | X | X | X | X | X
+Hashmap | O | X | X | X | X | X | X
+Heap Sort | X | X | X | X | O | X | X
+Insertion Sort | X | O | O | O | O | X | X
+Jump Search | O | X | X | X | X | X | X
+Linear Search | X | X | O | O | O | X | X
+Linked List | X | O | X | O | O | X | X
+Merge Sort | O | O | X | O | O | X | X
+Number Sort | X | O | X | X | O | X | X
+Pascals Triangle | X | O | X | X | X | X | X
+Queue | X | X | X | X | X | O | X
+Selection Sort | O | O | O | O | O | X | O
+Stack | X | X | O | O | X | O | X
+StackDemo | X | X | O | X | X | X | X
+Tree Transversal | O | X | X | X | X | X | X
