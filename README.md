@@ -1,9 +1,14 @@
 # Data structures and Algorithms
 > Languages used here:
 <!-- Languages start here -->
-1. documentation_url
-2. message
-3. url
+1. C
+2. C#
+3. C++
+4. Go
+5. Java
+6. JavaScript
+7. Python
+8. Rust
 <!-- Languages end here -->
 
 *Good contributions are always welcome :)*
