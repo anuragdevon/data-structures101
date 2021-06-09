@@ -30,7 +30,7 @@ jobs:
               if [[ $flag == "" ]]; then
                   echo $line >> tmp.md
               elif [[ $flag == "start" ]]; then
-                  languages=`curl -sH "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Anuragkar234/Data-Structures/languages | jq -r 'keys[]'`
+                  languages=`curl -sH "Accept: application/vnd.github.v3+json" https://api.github.com/repos/anuragdevon/Data-Structures/languages | jq -r 'keys[]'`
                   count=1
                   for language in $languages; do
                       echo "$count. $language" >> tmp.md
