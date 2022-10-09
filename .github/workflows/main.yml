@@ -1,4 +1,4 @@
-name: Update README.md
+name: Update CONTRIBUTING.md
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       - name: Install jq
         run: sudo apt-get install jq
 
-      - name: Update languages in README.
+      - name: Update languages in CONTRIBUTING.
         run: |
           blockStart="<!-- Languages start here -->"
           blockEnd="<!-- Languages end here -->"
@@ -45,14 +45,14 @@ jobs:
               if [[ $line == $blockStart ]]; then
                   flag="start"
               fi
-          done < README.md
+          done < CONTRIBUTING.md
 
-          rm README.md
-          mv tmp.md README.md
+          rm CONTRIBUTING.md
+          mv tmp.md CONTRIBUTING.md
 
       - name: Commit report
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'jsmith@example.com'
-          git commit -am "Update README.md"
+          git commit -am "Update CONTRIBUTING.md"
           git push
