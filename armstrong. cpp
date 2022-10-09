@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
- int n,num,sum=0;
+ long long n,num,sum=0;
  cin>>n;
  num=n;
  while(n)
  {
-  int x=n%10;
+  long long x=n%10;
   n/=10;
   x=x*x*x;
   sum+=x;
