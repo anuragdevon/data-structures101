@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+ int n,num,sum=0;
+ cin>>n;
+ num=n;
+ while(n)
+ {
+  int x=n%10;
+  n/=10;
+  x=x*x*x;
+  sum+=x;
+ }
+ if(sum==num)
+  cout<<"It's is a Armstrong Number\n";
+ else
+  cout<<"It's is a not Armstrong Number\n";
+}
