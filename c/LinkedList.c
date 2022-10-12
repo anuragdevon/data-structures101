@@ -1,4 +1,4 @@
-// C program to Create and Sort a Single Linked List
+// C program to Perform insertion and Sortion in a Single Linked List
 
 #include<conio.h>
 #include<stdio.h>
@@ -30,17 +30,21 @@ void main()
                }
                break;
                case 2:
+               {
                sort(left);
+               printf("\n");
+               break;
+               }
                case 3:
                exit(1);
                default:
-               printf("invalid choice");
-               break;
+               {
+               printf("invalid choice\n");
+               }
           }
-          printf("do you want to continuoe press 1: ");
+          printf("Do you want to continue press 1: ");
           scanf("%d",&c);
      }while(c==1);
-     getch();
 }
 nodetype* insert(nodetype *r)
 {
