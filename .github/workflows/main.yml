@@ -52,7 +52,7 @@ jobs:
 
       - name: Commit report
         run: |
-          git config --global user.name 'anuragdevon'
-          git config --global user.email 'anuragkar@outlook.com'
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email ''
           git commit -am "Update CONTRIBUTING.md"
           git push
